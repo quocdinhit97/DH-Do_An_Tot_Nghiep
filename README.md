@@ -1,5 +1,6 @@
-# Do_An_Tot_Nghiep
-
+# Xây dựng hệ thống tư vấn cải thiện môn học cho sinh viên Đại học Trà Vinh
+<code>SVTH: Phùng Quốc Định </code>
+<code>GVHD: Nguyễn Ngọc Đan Thanh </code>
 _____________________________________________________________
 
 * Tất cả source code được public tại github: 
