@@ -1,16 +1,5 @@
 # Do_An_Tot_Nghiep
-(_   _)( )                  ( )       ( )   ( )           ( )
-  | |  | |__     _ _   ___  | |/')    `\`\_/'/'_    _   _ | |
-  | |  |  _ `\ /'_` )/' _ `\| , <       `\ /'/'_`\ ( ) ( )| |
-  | |  | | | |( (_| || ( ) || |\`\       | |( (_) )| (_) || |
-  (_)  (_) (_)`\__,_)(_) (_)(_) (_)      (_)`\___/'`\___/'(_)
-              ~_^ Phùng Quốc Định - DA15TT ^_~           (_)
-              
-+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
 
-┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
-┼ Hướng dẫn cài đặt và sửa dụng hệ thống tư vấn cải thiện môn học cho sinh viên  ┼
-└▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┘
 _____________________________________________________________
 
 * Tất cả source code được public tại github: 
@@ -23,21 +12,21 @@ _____________________________________________________________
 	username: 110115012@sv.tvu.edu.vn
 	password: adminqd
 
-►►► Yêu cầu các phần mềm có trên máy
+## Yêu cầu các phần mềm có trên máy
 	► Visual studio 2017 trở lên
 	► SQL Server 2014 trở lên
 
 
-►►► Restore CSDL:
+## Restore CSDL:
 	Trong thư mục bạn tải về có 2 file backup: 1 file script và 1 file dùng restore trực tiếp.
 	Có 2 cách để restore csdl: 
 		► Mở file script có đuôi .sql và chạy trên SQL Server
-		► Trong SQL Server vào Database -> restore database ... và chọn đến			file backup còn lại
+		► Trong SQL Server vào Database -> restore database ... và chọn đến file backup còn lại
 	Chi tiết bạn có thể xem video tại đường dẫn: https://youtu.be/ZMl6_67NcEA 	(7p50)
 
 
-►►► Thay đổi đường dẫn đến csdl trong visual studio:
-	Mở file Web.config tìm đến dòng connectionString thay thế chuổi 	connectionString bằng chuổi connectionString trỏ đến csdl vừa restore
+## Thay đổi đường dẫn đến csdl trong visual studio:
+	Mở file Web.config tìm đến dòng connectionString thay thế chuổi connectionString bằng chuổi connectionString trỏ đến csdl vừa restore
 
 	Chi tiết bạn có thể xem video tại đường dẫn: https://youtu.be/ZMl6_67NcEA 		(10p)
 
